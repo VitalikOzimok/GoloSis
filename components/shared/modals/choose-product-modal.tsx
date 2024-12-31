@@ -7,7 +7,7 @@ import { DialogContent, Dialog } from "@/components/ui/dialog";
 
 import { useRouter } from "next/navigation";
 import { ProductWithRelations } from "@/@type/prisma";
-import { ProductItem } from "@prisma/client";
+// import { ProductItem } from "@prisma/client";
 import {
   mapColorType,
   mapProductSize,

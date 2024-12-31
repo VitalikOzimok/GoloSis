@@ -1,5 +1,5 @@
 "use client";
-import { cn } from "@/lib/utils";
+
 import React from "react";
 import {
   Sheet,
@@ -15,14 +15,13 @@ import { ArrowRight } from "lucide-react";
 import { CartDrawerItem } from "./cart-drawer-item";
 // import { getCartItemDetails } from "@/lib";
 // import { useCartStore } from "@/store";
-import { ProductSize, ColorType } from "@/constants/product";
+// import { ProductSize, ColorType } from "@/constants/product";
 
 interface Props {
   className?: string;
 }
 
 export const CartDrawer: React.FC<React.PropsWithChildren<Props>> = ({
-  className,
   children,
 }) => {
   //   const [totalAmount, fetchCartItems, items] = useCartStore((state) => [

@@ -16,7 +16,7 @@ export const ProductCart: React.FC<Props> = ({
   name,
   price,
   imageUrl,
-  className,
+
   old_price,
 }) => {
   return (
